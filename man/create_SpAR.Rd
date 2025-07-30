@@ -43,6 +43,7 @@ included in \code{ssarp} can be found in \href{https://kmartinet.github.io/ssarp
 #  dat <- rgbif::occ_search(taxonKey = 8782549,
 #                           hasCoordinate = TRUE,
 #                           limit = 10000)
+library(ssarp)
 dat <- read.csv(system.file("extdata",
                             "ssarp_Example_Dat.csv",
                             package = "ssarp"))
